@@ -1,0 +1,77 @@
+body {
+
+	color:black;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h3, h4 {
+	font-size: 20px;
+	padding-left:15px;
+}
+
+.subtitle {
+  margin: 0 0 2em 0;
+}
+
+.jewel {
+	height:50px;
+	width:50px;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid orchid;
+  border-top: 1px solid orchid;
+  top: 0;
+  width: 340px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.bio-image{
+	width:300px;
+	height:300px;
+	padding-right:15px;
+}
+
+a {
+  background-color:lavender;
+	color:black;
+	font-size:21px;
+	text-align: center;
+  padding: 1em 1.5em;
+	text-decoration: none;
+	border-radius: 17px;
+  
+}
+
+a.button {
+	height:31px;
+	display:inline-block;
+}
+
+#contact-button{
+	width:174px;
+	background-position:0px 0px;
+	padding-left:20px;
+	margin-left:20px;
+}
